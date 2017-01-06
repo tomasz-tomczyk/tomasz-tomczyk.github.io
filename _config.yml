@@ -16,7 +16,7 @@ paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Tomasz Tomczyk'
 bio: >
-  Currently working at uSwitch. Elixir, Ruby, Clojure, Ops.
+  Currently at uSwitch. Working daily with Elixir, Ruby, Clojure, DevOps.
 author_image: "/assets/images/author.jpg"
 twitter_username: tomasztomczyk
 github_username:  tomasz-tomczyk

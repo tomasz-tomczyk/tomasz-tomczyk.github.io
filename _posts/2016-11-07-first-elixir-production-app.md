@@ -9,8 +9,8 @@ As I'm still just getting the hang of the basics, a lot of my thoughts around El
 
 Moving on to learnings from getting my first app into production, here's a few notes in no particular order.
 
-### Elixir is production ready
+#### Elixir is production ready
 Yes, you may struggle finding libraries for obscure APIs and some things will be feature incomplete. Not entirely sure it should stop you - if you're able to make the time, rolling your own solution and open sourcing it is a viable solution. However, working with file system, AWS, HTTP REST APIs and so on, your usual bread and butter things in web apps will be easily doable.
 
-### Deployment is confusing
+#### Deployment is confusing
 I have yet to understand releases; my approach was just to use Docker on ECS - however you miss out on some of the benefits of using Elixir in the first place (hot code swapping for instance). It feels like this area has still a relatively long way to go - but it may be just my lack of understanding.
