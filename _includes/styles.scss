@@ -1,7 +1,8 @@
 @import 'bourbon/bourbon';
-@import 'syntax-highlighting';
+// @import 'syntax-highlighting';
 @import 'typeplate-sk/typeplate-index';
 //@import 'flexbox';
+@import 'monokai';
 
 $grey-color:       #828282;
 
@@ -193,7 +194,16 @@ body {
   width: 100%;
   max-width: 700px;
   text-align: center;
+  font-size: 14px;
+  line-height: 1.3;
   color: #999999;
+  a {
+      color: #333333;
+      text-decoration: none;
+      &:hover {
+          text-decoration: underline;
+      }
+  }
   a {
     color: #666666;
     text-decoration: none;
@@ -293,14 +303,13 @@ body {
       }
     }
     ul, ol {
-      padding: 0 0 30px;
+      padding: 0;
       margin: 0;
     }
     li {
       padding: 0;
       font-weight: 400;
       font-style: normal;
-      font-size: 23px;
       line-height: 30px;
       margin-left: 30px;
       margin-bottom: 12px;
@@ -399,16 +408,6 @@ body {
         padding: 0;
         color: #333333;
         text-align: left;
-        font-size: 14px;
-        line-height: 1.3;
-        color: #999999;
-        a {
-          color: #333333;
-          text-decoration: none;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
         .poweredby {
           display: block;
           padding-bottom: 18px;
@@ -439,10 +438,8 @@ body {
 
 pre,
 code {
-  font-size: 15px;
-  border: 1px solid #e8e8e8;
-  border-radius: 3px;
-  background-color: #eeeeff;
+    font-size: 15px;
+    border-radius: 2px;
 }
 
 code {
@@ -462,3 +459,5 @@ pre {
 .pagination .disabled {
     opacity: 0;
 }
+
+
