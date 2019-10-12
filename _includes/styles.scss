@@ -59,8 +59,6 @@ body {
   -webkit-font-feature-settings: "liga", "dlig";
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
-  font-size: 18px;
-  line-height: 30px;
 }
 
 .site-header {
@@ -129,7 +127,6 @@ body {
   @include respond-to(800) {
     padding: 0 $rs * 1;
   }
-
   article {
     padding: 20px 0;
     border-bottom: 1px solid #f2f2f0;
