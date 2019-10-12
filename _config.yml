@@ -16,7 +16,7 @@ paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Tomasz Tomczyk'
 bio: >
-  Currently at uSwitch. Working daily with Elixir, Ruby, Clojure, DevOps.
+  Product focused software engineer working in Elixir.
 author_image: "/assets/images/author.jpg"
 twitter_username: tomasztomczyk
 github_username:  tomasz-tomczyk
@@ -29,3 +29,4 @@ kramdown:
 
 plugins:
   - jekyll-paginate
+  - "jekyll-github-metadata"

@@ -3,7 +3,7 @@ layout: post
 title: GenStage for processing jobs
 ---
 
-We currently use Elixir at uSwitch to process user-submitted forms, sending the data to a 3rd party API and parsing the output saving the results to a database. The high-level outline of the Elixir process as a recursive loop looks like this:
+We use Elixir at uSwitch to process user-submitted forms, sending the data to a 3rd party API and parsing the output saving the results to a database. The high-level outline of the Elixir process as a recursive loop looks like this:
 
 1. Long-running SQS request, as soon as a message is available, the request returns
 2. For every message in the request, spawn a new process to handle it
