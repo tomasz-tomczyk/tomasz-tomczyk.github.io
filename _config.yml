@@ -8,7 +8,7 @@
 # Site settings
 title: Tomasz Tomczyk
 email: me@tomasztomczyk.com
-description: 
+description:
 logo: "/assets/images/logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tomasztomczyk.com" # the base hostname & protocol for your site
@@ -27,5 +27,5 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 
-gems:
+plugins:
   - jekyll-paginate
