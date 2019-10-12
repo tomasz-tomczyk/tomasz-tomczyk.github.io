@@ -59,6 +59,8 @@ body {
   -webkit-font-feature-settings: "liga", "dlig";
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .site-header {
@@ -219,6 +221,16 @@ body {
   }
   .post-title {
       color: #333332;
+  }
+  p.published {
+    font-size: 14px;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.2799px;
   }
   .author-image {
     background-image: url({{ site.baseurl }}{{site.author_image}});
