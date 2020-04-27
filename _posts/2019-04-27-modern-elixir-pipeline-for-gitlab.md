@@ -5,7 +5,9 @@ title: A modern Elixir pipeline for GitLab
 
 I struggled finding an up to date guide or a template to GitLab pipelines for Elixir. I spent a lot of time tweaking my own and thought it might be useful to share.
 
-First, let's have the whole finished file and I'll explain my reasoning.
+<amp-img width="2296" height="642" layout="responsive" src="/assets/images/posts/gitlab-pipeline.png"></amp-img>
+
+First, let's take a look at the whole finished file and I'll explain my reasoning step by step below.
 
 ```yaml
 image: elixir:1.10.2-alpine
